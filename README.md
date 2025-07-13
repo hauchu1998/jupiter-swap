@@ -31,14 +31,9 @@ pnpm install
 # Build the package
 pnpm build
 
-# Run tests
-pnpm test
-
-# Lint code
-pnpm lint
-
-# Format code
-pnpm format
+# Publish the package
+npm login
+npm publish --access public
 ```
 
 ## License
